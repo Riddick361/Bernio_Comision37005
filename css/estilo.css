@@ -43,13 +43,13 @@
 
 @keyframes bg-img {
   0% {
-    background-image: url(imagenes/bg-img.jpg);
+    background-image: url(../imagenes/bg-img.jpg);
   }
   50% {
-    background-image: url(imagenes/bg-img2.jpg);
+    background-image: url(../imagenes/bg-img2.jpg);
   }
   100% {
-    background-image: url(imagenes/bg-img.jpg);
+    background-image: url(../imagenes/bg-img.jpg);
   }
 }
 
@@ -125,7 +125,7 @@ header {
   width: 100%;
   height: 500px;
   display: flex;
-  background-image: url(imagenes/bg-img.jpg);
+  background-image: url(../imagenes/bg-img.jpg);
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -196,42 +196,42 @@ header {
 }
 
 .blog-card.hijo1 {
-  background: url(imagenes/bg-rep.png);
+  background: url(../imagenes/bg-rep.png);
   background-size: cover;
 }
 
 .blog-card.hijo1:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imagenes/bg-rep.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/bg-rep.png);
 }
 
 .blog-card.hijo2 {
-  background: url(imagenes/bg-info.webp);
+  background: url(../imagenes/bg-info.webp);
   background-size: cover;
   background-position: top;
 }
 
 .blog-card.hijo2:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imagenes/bg-info.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/bg-info.webp);
 }
 
 .blog-card.hijo3 {
-  background: url(imagenes/bg-red.jpg);
+  background: url(../imagenes/bg-red.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .blog-card.hijo3:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imagenes/bg-red.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/bg-red.jpg);
 }
 
 .blog-card.hijo4 {
-  background: url(imagenes/bg-img.jpg);
+  background: url(../imagenes/bg-img.jpg);
   background-size: cover;
   background-position: left;
 }
 
 .blog-card.hijo4:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imagenes/bg-img.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/bg-img.jpg);
 }
 
 .blog-card:hover .card-info {

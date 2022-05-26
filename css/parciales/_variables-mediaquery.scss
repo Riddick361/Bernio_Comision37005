@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet"');
+
+$h-color:     #f7f7f7;
+$yellow:      #D0BB57;
+$txt-color:   #e2ecff;
+
+@media screen and (max-width: 800px) {
+    header {
+      flex-direction: column;
+    }
+    .nav_menu {
+      padding: 10px 0px;
+    }
+    .videoplay {
+      max-width: 80%;
+      max-height: auto;
+    }
+    .servicios-grid {
+      flex-direction: column;
+      max-width: 100%;
+      
+    }
+    
+    .blog-card{
+      width: 400px;
+      height: 300px;
+    }
+}
+
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+@keyframes bg-img {
+  0% {
+      background-image: url(../imagenes/bg-img.jpg);
+      
+      
+  }
+  50% {
+      background-image: url(../imagenes/bg-img2.jpg);
+      
+  }
+  100% {
+      background-image: url(../imagenes/bg-img.jpg);
+  }
+}

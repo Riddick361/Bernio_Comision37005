@@ -49,7 +49,7 @@
     background-image: url(../../imagenes/bg-img2.jpg);
   }
   100% {
-    background-image: url(../imagenes/bg-img.jpg);
+    background-image: url(../../imagenes/bg-img.jpg);
   }
 }
 
@@ -125,7 +125,7 @@ header {
   width: 100%;
   height: 500px;
   display: flex;
-  background-image: url(../imagenes/bg-img.jpg);
+  background-image: url(../../imagenes/bg-img.jpg);
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;

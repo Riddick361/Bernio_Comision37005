@@ -1,0 +1,18 @@
+.videoplay {
+    width: 560px;
+    height: 315px;
+    margin-top: map-get($estilos, mt20);
+}
+.presentacion {
+    padding: map-get($estilos, p10 );
+    text-align: map-get($estilos, tcentro );    
+    margin: 10px;
+    & article h2 {
+        margin-bottom: 40px;
+        font-size: map-get($estilos, fsize30);
+        padding-bottom: 10px;
+    }
+    & article p {
+        font-size: map-get($estilos , fsize20);
+    }
+}

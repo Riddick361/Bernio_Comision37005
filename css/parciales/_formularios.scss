@@ -1,0 +1,29 @@
+.newsletter{
+    color: black;
+    width: 100%;
+    margin: 20px 0px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+        & input {
+            margin-bottom: 15px;
+        }
+}
+.unete_a_nosotros {
+    color: black;
+    border-radius: 15px;
+    box-shadow:  -10px -10px 20px #bebebe,
+                10px 10px 20px #ffffff;
+    padding: 20px;
+    margin: 20px 20% 30px 20%;
+}
+.form_textarea {
+    width: 50vw;
+    height: 60px;
+}
+.form_input {
+    width: 45vw;
+}

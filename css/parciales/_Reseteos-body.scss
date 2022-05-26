@@ -1,7 +1,5 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    @include reset
   }
   
   a {
@@ -18,4 +16,9 @@
   main {
     margin-top: 20px;    
   }
+  .titulo {
+    padding: map-get($estilos, p10 );
+    text-align: center;
+    
+}
   

@@ -1,0 +1,20 @@
+footer {
+    padding-top: 20px;
+    box-shadow: 0 -8px 2px -6px rgba(0, 0, 0, 0.5);
+}
+.pie_pagina {
+    text-align: map-get($estilos, tcentro );
+    display: flex;
+    flex-direction: column;
+    color: black;
+    margin-top: map-get($estilos, mt20);
+    align-items: center;
+        &_redes {
+            margin: 10px;
+            font-size: 60px;
+            height: auto                   
+        }
+}
+.redes:hover {
+    color: aliceblue;
+}

@@ -1,8 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet"');
 
+@mixin reset {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;  
+}
+
 $h-color:     #f7f7f7;
 $yellow:      #D0BB57;
 $txt-color:   #e2ecff;
+$estilos: (
+  p10: 10px,
+  mb20: 20px,
+  mt20: 20px,
+  fsize30: 30px,
+  tcentro: center,
+  fsize20: 20px,
+  bg-size: cover,
+);
 
 @media screen and (max-width: 800px) {
     header {
@@ -18,14 +33,23 @@ $txt-color:   #e2ecff;
     .servicios-grid {
       flex-direction: column;
       max-width: 100%;
-      
+      align-items: center;
     }
-    
     .blog-card{
       width: 400px;
       height: 300px;
     }
+    .contacto {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .lista {
+      text-align: map-get($estilos, tcentro );
+    }
 }
+
+
 
 @keyframes gradient {
     0% {
@@ -41,15 +65,16 @@ $txt-color:   #e2ecff;
 
 @keyframes bg-img {
   0% {
-      background-image: url(../imagenes/bg-img.jpg);
+      background-image: url(../../imagenes/bg-img.jpg);
       
       
   }
   50% {
-      background-image: url(../imagenes/bg-img2.jpg);
+      background-image: url(../../imagenes/bg-img2.jpg);
       
   }
   100% {
       background-image: url(../imagenes/bg-img.jpg);
   }
 }
+

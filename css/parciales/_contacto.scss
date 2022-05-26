@@ -1,0 +1,20 @@
+.contacto {
+    display: flex;
+    justify-content: space-around;
+}
+.datos {
+    padding: map-get($estilos, p10 );
+    text-align: map-get($estilos, tcentro );
+    font-size: map-get($estilos, fsize30);
+    margin-bottom: map-get($estilos, mb20 );
+}
+.lista {
+    padding: map-get($estilos, p10 );
+    list-style: none;    
+    font-size: map-get($estilos , fsize20);
+    margin-right: 10px;
+}
+
+
+    
+

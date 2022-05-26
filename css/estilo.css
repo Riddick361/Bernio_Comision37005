@@ -125,7 +125,7 @@ header {
   width: 100%;
   height: 500px;
   display: flex;
-  background-image: url(../imagenes/bg-img.jpg);
+  background-image: url(../imagenes/bgimg.jpg);
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -373,8 +373,7 @@ footer {
 .unete_a_nosotros {
   color: black;
   border-radius: 15px;
-  box-shadow: -10px -10px 20px #bebebe,
- 10px 10px 20px #ffffff;
+  box-shadow: -10px -10px 20px #bebebe, 10px 10px 20px #ffffff;
   padding: 20px;
   margin: 20px 20% 30px 20%;
 }

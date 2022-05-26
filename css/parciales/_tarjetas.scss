@@ -19,34 +19,34 @@
   box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);
   
     &.hijo1 {
-        background: url(../../imagenes/bg-rep.png);
+        background: url(../imagenes/bg-rep.png);
         background-size: map-get($estilos, bg-size );
             &:hover {
-                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../imagenes/bg-rep.png);
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/bg-rep.png);
             }
     }
     &.hijo2 {
-        background: url(../../imagenes/bg-info.webp);
+        background: url(../imagenes/bg-info.webp);
         background-size: map-get($estilos, bg-size );
         background-position: top;
         &:hover {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../imagenes/bg-info.webp);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/bg-info.webp);
         }
     }
     &.hijo3 {
-        background: url(../../imagenes/bg-red.jpg);
+        background: url(../imagenes/bg-red.jpg);
         background-size: map-get($estilos, bg-size );
         background-position: center;
         &:hover {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../imagenes/bg-red.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/bg-red.jpg);
         }
     }
     &.hijo4 {
-        background: url(../../imagenes/bg-img.jpg);
+        background: url(../imagenes/bg-img.jpg);
         background-size: map-get($estilos, bg-size );
         background-position: left;
         &:hover {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../imagenes/bg-img.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/bg-img.jpg);
         }
     }
  

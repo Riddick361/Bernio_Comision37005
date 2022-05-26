@@ -65,15 +65,15 @@ $estilos: (
 
 @keyframes bg-img {
   0% {
-      background-image: url(imagenes\bg-img.jpg);
+      background-image: url(../imagenes/bg-img.jpg);
       
       
   }
   50% {
-      background-image: url(imagenes\bg-img2.jpg);
+      background-image: url(../imagenes/bg-img2.jpg);
       
   }
   100% {
-      background-image: url(imagenes\bg-img.jpg);
+      background-image: url(../imagenes/bg-img.jpg);
   }
 }

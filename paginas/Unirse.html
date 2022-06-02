@@ -28,27 +28,29 @@
         </header>
         <main>
             <h2 class="titulo">Te invitamos a que te unas a nuestro staff</h2>
-            <Form class="unete_a_nosotros" action="#">
-                <div>
-                    <label for="Nombre">Nombres:</label>
-                    <input class="form_input" type="text" id="Nombre" name="Nombre">
-                </div>
-                <div>
-                    <label for="Apellido">Apellidos:</label>
-                    <input class="form_input" type="text" id="Apellido" name="Apellido">
-                </div>
-                <div>
-                    <label for="Nacimiento">Fecha de nac.:</label>
-                    <input class="form_input" type="date" name="Nacimiento" id="Nacimiento">
-                </div>
-                <div>
-                    <label for="Email">E-mail:</label>
-                    <input class="form_input" type="email" id="Email" name="Email"> 
-                </div>
-                <div>
-                    <label for="Telefono">Telefono:</label>
-                    <input class="form_input" type="tel" id="Telefono" name="Telefono"> 
-                </div>
+            <Form class="unete_a_nosotros flex" action="#">
+                <section>
+                    <div>
+                        <label for="Nombre">Nombres:</label>
+                        <input class="form_input" type="text" id="Nombre" name="Nombre">
+                    </div>
+                    <div>
+                        <label for="Apellido">Apellidos:</label>
+                        <input class="form_input" type="text" id="Apellido" name="Apellido">
+                    </div>
+                    <div>
+                        <label for="Nacimiento">Fecha de nac.:</label>
+                        <input class="form_input" type="date" name="Nacimiento" id="Nacimiento">
+                    </div>
+                    <div>
+                        <label for="Email">E-mail:</label>
+                        <input class="form_input" type="email" id="Email" name="Email"> 
+                    </div>
+                    <div>
+                        <label for="Telefono">Telefono:</label>
+                        <input class="form_input" type="tel" id="Telefono" name="Telefono"> 
+                    </div>
+                </section>
                 <div>
                     <span>Sexo:</span><br>
                     <label for="femenino">Femenino</label>
@@ -66,7 +68,7 @@
                     
                     <label for="Linux">Linux</label>
                     <input type="checkbox" name="Conocimientos" id="Linux">
-        
+                    <br>
                     <label for="Rmado">Armado de pc</label>
                     <input type="checkbox" name="Conocimientos" id="Armado">
         
@@ -79,7 +81,7 @@
                 <div>
                     <label for="Comentarios">Comentarios:</label><br>
                     <textarea class="form_textarea" placeholder="Ingrese su comentario" name="comentario" id="comentario"></textarea>
-                </div class="centrar_boton">
+                </div>
                <button class="btn_1">enviar solicitud</button>
             </Form>
           

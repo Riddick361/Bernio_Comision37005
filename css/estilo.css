@@ -170,6 +170,7 @@ header {
 
 .btn_1:hover {
   background-color: #b1afaf;
+  color: black;
 }
 
 .btn_1:active {
@@ -270,7 +271,7 @@ header {
   margin: 5px auto;
   color: #e2ecff;
   font-family: 'Droid Serif', serif;
-  font-size: 13px;
+  font-size: 15px;
   font-style: italic;
   line-height: 18px;
 }
@@ -375,7 +376,7 @@ footer {
   border-radius: 15px;
   box-shadow: -10px -10px 20px #bebebe, 10px 10px 20px #ffffff;
   padding: 20px;
-  margin: 20px 20% 30px 20%;
+  margin: 20px auto;
 }
 
 .form_textarea {
@@ -385,5 +386,15 @@ footer {
 
 .form_input {
   width: 45vw;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+input, textarea {
+  max-width: 100%;
 }
 /*# sourceMappingURL=estilo.css.map */

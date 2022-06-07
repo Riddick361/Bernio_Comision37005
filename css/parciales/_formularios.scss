@@ -18,7 +18,9 @@
     box-shadow:  -10px -10px 20px #bebebe,
                 10px 10px 20px #ffffff;
     padding: 20px;
-    margin: 20px 20% 30px 20%;
+    margin: 20px auto;
+    
+    
 }
 .form_textarea {
     width: 50vw;
@@ -31,4 +33,7 @@
     display: flex;
     flex-direction: column;
     width: 45%;
+}
+input, textarea {
+    max-width: 100%;
 }
